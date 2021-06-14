@@ -15,7 +15,14 @@ LinkedList<T> List = new LinkedList<>();
 	public void enqueue(T data) {
 		List.add(data);
 	}
-	
+	/**
+	 * For removing value/data from stack and
+	 * queue by using Linked list class method.
+	 * @return
+	 */
+	public int dequeue() {
+		return List.pop();
+	}
 	/**
 	 * For Printing purpose of Data in queue
 	 */

@@ -9,6 +9,10 @@ public class QueueRunner {
 		List.enqueue(70);
 		List.enqueue(30);
 		List.show();
-
+		System.out.println("Before removing ");
+		System.out.println();
+		List.dequeue();
+		System.out.println("After removing");
+		List.show();
 }
 }
